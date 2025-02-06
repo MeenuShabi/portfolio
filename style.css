@@ -52,9 +52,11 @@ ul {
     text-align: center;
 }
 
-.project img {
-    max-width: 100%;
-    height: auto;
+.project-img {
+    width: 100%;
+    max-width: 300px;  /* Ensures both images have the same maximum width */
+    height: 200px; /* Fixed height for both images */
+    object-fit: cover; /* Ensures aspect ratio is maintained */
     border-radius: 5px;
 }
 
