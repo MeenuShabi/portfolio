@@ -65,17 +65,10 @@ p:hover {
     text-align: center; /* This center aligns the text */
 }
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-/* Skills Section */
-#skills {
-    background-color: #e9ecef;
-=======
 /* Center align elements hover effect - This only affects the quote, github link, and footer */
 .center:hover {
     transition: transform 2s; /* This makes the transform effect last 2 seconds */
     transform: scale(1.1); /* This makes the elements with class "center" increase in size by 1.1 when hovered over */
->>>>>>> 9e61b29c623bf93f504df4ceb9c28578d924479c
 }
 
 /* Anchor elements */
@@ -105,59 +98,7 @@ img:hover {
 	filter: grayscale(5%);  /* Brings back most of the image's color when hovered over */
 }
 
-<<<<<<< HEAD
-.project-img {
-    width: 100%;
-    height: auto;
-=======
-.project-img {
-    width: 100%;
-    max-width: 300px;  /* Ensures both images have the same maximum width */
-    height: 200px; /* Fixed height for both images */
-    object-fit: cover; /* Ensures aspect ratio is maintained */
->>>>>>> Stashed changes
-    border-radius: 5px;
-}
-
-/* Contact Section */
-#contact {
-    background-color: #e9ecef;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-label {
-    margin: 10px 0 5px;
-}
-
-input,
-textarea {
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-
-/* Footer Styles */
-=======
 /*Styling for footer element */
->>>>>>> 9e61b29c623bf93f504df4ceb9c28578d924479c
 footer {
     padding: 2%; /* This gives the footer padding that is equal to 2% of the width of the element's area */
     background-color: white;
