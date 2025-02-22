@@ -53,6 +53,7 @@ section {
     text-align: center;
 }
 
+<<<<<<< Updated upstream
 /* Skills Section */
 #skills {
     background-color: #e9ecef;
@@ -86,6 +87,13 @@ section {
 .project-img {
     width: 100%;
     height: auto;
+=======
+.project-img {
+    width: 100%;
+    max-width: 300px;  /* Ensures both images have the same maximum width */
+    height: 200px; /* Fixed height for both images */
+    object-fit: cover; /* Ensures aspect ratio is maintained */
+>>>>>>> Stashed changes
     border-radius: 5px;
 }
 
