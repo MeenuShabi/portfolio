@@ -1,99 +1,133 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset some default styles */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
 header {
-    background-color: #333;
+    background-color: #4CAF50;
     color: white;
-    padding: 15px;
+    padding: 15px 0;
     text-align: center;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+    list-style-type: none;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 15px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
 section {
-    padding: 50px;
-    margin: 20px;
+    padding: 20px;
+    margin: 20px 0;
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
-    color: #333;
+/* About Section */
+#about {
+    text-align: center;
 }
 
-ul {
-    list-style-type: square;
+/* Skills Section */
+#skills {
+    background-color: #e9ecef;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+#skills ul li {
+    background-color: #4CAF50;
+    color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Portfolio Section */
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .project {
-    display: inline-block;
-    width: 48%;
-    margin: 1%;
-    padding: 10px;
-    background-color: #fafafa;
+    flex: 0 1 calc(30% - 20px);
+    margin: 10px;
     text-align: center;
 }
 
 .project-img {
     width: 100%;
-    max-width: 300px;  /* Ensures both images have the same maximum width */
-    height: 200px; /* Fixed height for both images */
-    object-fit: cover; /* Ensures aspect ratio is maintained */
+    height: auto;
     border-radius: 5px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #e9ecef;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    margin: 0 auto;
 }
 
-form label {
-    margin-bottom: 5px;
+label {
+    margin: 10px 0 5px;
 }
 
-form input, form textarea {
+input,
+textarea {
+    padding: 10px;
     margin-bottom: 15px;
-    padding: 8px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 5px;
 }
 
 button {
-    padding: 10px;
-    background-color: #333;
+    background-color: #4CAF50;
     color: white;
+    padding: 10px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #45a049;
 }
 
+/* Footer Styles */
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #333;
+    padding: 15px 0;
+    background-color: #343a40;
     color: white;
 }
